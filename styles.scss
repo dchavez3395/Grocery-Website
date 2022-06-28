@@ -787,7 +787,7 @@ section {
       background: #fff;
 
       a {
-        font-size: 6rem;
+        font-size: 4.2rem;
         margin: 2rem 2.5rem;
         text-transform: uppercase;
         display: block;
@@ -990,11 +990,14 @@ section {
           h3{
             font-size: 4.3rem;
             margin-top: 3%;
+            line-height: 35px !important;
 
           }
           p{
             font-size: 2.5rem;
             margin-top: 3%;
+            line-height: 30px !important;
+
 
           }
           .btn{
@@ -1026,9 +1029,25 @@ section {
           margin: auto;
         }
 
+        .share{
+          margin: 0;
+          width: 60%;
+          margin-left: 21%;
+          a{
+            margin-left: 15%;
+            margin-top: 5%;
+            font-size: 6rem;
+            margin-bottom: 5%;
+            padding-left: 30%;
+            background: none;
+          }
+
+        }
+
         .links{
           i{
             padding-right: 3rem;
+
           }
         }
 
